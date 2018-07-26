@@ -1,24 +1,22 @@
-# README
+<h1>The Gossip Project</h1>
+<h4>Réalisation by Edouard, Léa</h4>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Etape 1:   
 
-Things you may want to cover:
+    > git clone https://github.com/SatanPetitCoeur/09_Gossip_Project.git
 
-* Ruby version
+Etape 2: 
 
-* System dependencies
+    > cd 09_Gossip_Project
+    
+Etape 3:
 
-* Configuration
+    > rake db:migrate 
+     
+Etape 4:
 
-* Database creation
+    > rake db:seed 
+   
+Etape 5:  
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    > rails c
